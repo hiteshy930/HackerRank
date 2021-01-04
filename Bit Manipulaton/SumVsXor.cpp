@@ -2,7 +2,9 @@
 find value of x which satisfy following conditions:
    0<=x<=n
    n + x = n ^ x
-   
+==================================================================   
+   Hint : x aesa number hoga jiski bits 0 hogi , vaha pe jaha n ki bits 1 hogi. 
+=======================================================================
    Function Description
 
 Complete the sumXor function in the editor below. It should return the number of values determined, as an integer.
