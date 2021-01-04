@@ -34,8 +34,9 @@ Solution:
             Explaination :
                           xor simulates binary addition without the carry over to the next digit. 
                           For the zero digits of n you can either add a 1 or 0 without getting a carry which implies
-                          ( xor = + )whereas if a digit in n is 1 then the matching digit in x is forced to be 0 on order to avoid carry.
-                          For each 0 in n in the matching digit in x can either being a 1 or 0 with a total combination count of """"" 2^(num of zero)  """"".
+                          ( xor = + )
+               for bit value 1: whereas if a digit in n is 1 then the matching digit in x is forced to be 0 on order to avoid carry.
+               for bit value 0 :    For each 0 in n in the matching digit in x can either being a 1 or 0 with a total combination count of """"" 2^(num of zero)  """"".
 long sumXor(long n) {
         long c = 0;
         while(n){
